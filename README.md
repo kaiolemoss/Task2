@@ -1,37 +1,37 @@
-# Sistema de Alerta de Transações
+# Transaction Alert System
 
-Este projeto desenvolve um sistema de alerta robusto para monitorar transações financeiras, detectando padrões anormais e alertando os responsáveis em tempo real.
+This project develops a robust alert system to monitor financial transactions, detecting abnormal patterns and alerting responsible parties in real-time.
 
-## Tecnologias Utilizadas
+## Technologies Used
 - Python
 - Flask
 - Machine Learning (Random Forest)
-- smtplib (para envio de e-mails)
-- Pandas, Matplotlib, Seaborn (para análises e visualizações)
+- smtplib (for sending emails)
+- Pandas, Matplotlib, Seaborn (for analysis and visualizations)
 
-## Instalação
-Clone o repositório e instale as dependências:
+## Installation
+Clone the repository and install the dependencies:
 
 pip install -r requirements.txt
 
 
-## Execução
+## Execution
 
-Para iniciar o servidor Flask:
+To start the Flask server:
 
 - python main.py
 
-## Estrutura do projeto
+## Project Structure
 
-- alert_system.py: Servidor Flask para processamento de transações.
-- anomaly_reporting.py: Módulo para notificar anomalias via e-mail.
-- data_analysis.py: Análise e detecção de anomalias nas transações.
-- data_loading.py: Carregamento e preparação de dados de transações.
-- main_analysis.py: Script principal para execução das análises.
-- real_time_visualization.py: Visualizações dos dados em tempo real.
-- train_model.py: Treinamento e validação dos modelos de Machine Learning.
+- alert_system.py: Flask server for transaction processing.
+- anomaly_reporting.py: Module to notify anomalies via email.
+- data_analysis.py: Analysis and detection of anomalies in transactions.
+- data_loading.py: Loading and preparation of transaction data.
+- main_analysis.py: Main script for running the analyses.
+- real_time_visualization.py: Real-time data visualizations.
+- train_model.py: Training and validation of Machine Learning models.
 
-## Link apresentação:
+## Presentation Link:
 
 https://drive.google.com/file/d/1UiIu2k6-GxuoRhdXsJpnACIFNWxp7yWa/view?usp=drive_link
 
