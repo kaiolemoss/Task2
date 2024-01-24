@@ -12,8 +12,6 @@ Este projeto desenvolve um sistema de alerta robusto para monitorar transações
 ## Instalação
 Clone o repositório e instale as dependências:
 
-git clone [url-do-repositório]
-cd [nome-do-projeto]
 pip install -r requirements.txt
 
 
